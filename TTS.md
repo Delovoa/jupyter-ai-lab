@@ -1,3 +1,3 @@
 # Text-to-Speech Models
 
-[https://github.com/swivid/f5-tts](F5-TTS)
+[F5-TTS](https://github.com/swivid/f5-tts)
