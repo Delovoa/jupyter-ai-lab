@@ -19,6 +19,7 @@ micromamba create -n jupyter python=3.11 jupyterlab -c conda-forge
 ```bash
 micromamba activate jupyter
 jupyter lab
+micromamba deactivate
 ```
 
 ### Add AI model
@@ -27,6 +28,7 @@ micromamba create -n [MODEL-NAME] python=3.10 ipykernel -c conda-forge
 micromamba activate [MODEL-NAME]
 pip install [REQUIRED-PACKAGE-LIST]
 python -m ipykernel install --user --name [MODEL-NAME] --display-name "[DESCRIPTIVE-NAME]"
+micromamba deactivate
 ```
 
 ### List installed models
