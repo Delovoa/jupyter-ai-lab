@@ -38,7 +38,9 @@ micromamba env list
 
 ### Remove AI model
 ```bash
+micromamba activate jupyter
 jupyter kernelspec remove [MODEL-NAME]
+micromamba deactivate
 micromamba env remove -n [MODEL-NAME]
 micromamba clean --all
 ```
