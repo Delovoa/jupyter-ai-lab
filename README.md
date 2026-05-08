@@ -25,8 +25,8 @@ jupyter lab
 ```bash
 micromamba create -n [MODEL-NAME] python=3.10 ipykernel -c conda-forge
 micromamba activate [MODEL-NAME]
-pip install [PACKAGE]
-python -m ipykernel install --user --name [MODEL-NAME] --display-name "AI: [MODEL-NAME]"
+pip install [REQUIRED-PACKAGE-LIST]
+python -m ipykernel install --user --name [MODEL-NAME] --display-name "[DESCRIPTIVE-NAME]"
 ```
 
 ### List installed models
