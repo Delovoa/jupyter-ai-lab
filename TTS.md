@@ -1,7 +1,7 @@
 # Text-to-Speech Models
 
 * [F5-TTS](https://github.com/swivid/f5-tts)
-* [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) [AMD](https://tinycomputers.io/posts/qwen-tts-on-amd-strix-halo.html)
+* [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) [AMD](https://tinycomputers.io/posts/qwen-tts-on-amd-strix-halo.html) [Other](https://github.com/artcore-c/AI-Voice-Clone-with-Qwen3-TTS)
 * [OmniVoice](https://github.com/k2-fsa/OmniVoice)
 * [Fish-Speech](https://github.com/fishaudio/fish-speech)
 * [Index-TTS](https://github.com/index-tts/index-tts)
