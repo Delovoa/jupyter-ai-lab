@@ -29,6 +29,11 @@ pip install [PACKAGE]
 python -m ipykernel install --user --name [MODEL-NAME] --display-name "AI: [MODEL-NAME]"
 ```
 
+### List installed models
+```bash
+micromamba env list
+```
+
 ### Remove AI model
 ```bash
 jupyter kernelspec remove [MODEL-NAME]
@@ -36,7 +41,3 @@ micromamba env remove -n [MODEL-NAME]
 micromamba clean --all
 ```
 
-### List all environments
-```bash
-micromamba env list
-```
